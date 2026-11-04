@@ -174,4 +174,12 @@
  */
 #define MEDIA_BUS_FMT_METADATA_FIXED		0x7001
 
+/*
+ * Vendor specific: sensor embedded data / metadata stream.
+ * Used by vendor sensor drivers (e.g. Sony IMX294) on a dedicated
+ * metadata pad. This is the Rockchip vendor extension following
+ * MEDIA_BUS_FMT_METADATA_FIXED (0x7001).
+ */
+#define MEDIA_BUS_FMT_SENSOR_DATA		0x7002
+
 #endif /* __LINUX_MEDIA_BUS_FORMAT_H */
